@@ -1,0 +1,33 @@
+{
+  "name": "@arhiptsev/dependency-injection",
+  "version": "0.1.0",
+  "description": "Dependency Injection package for Type Script apps",
+  "author": "https://github.com/arhiptsev",
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^4.4.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "@types/jest": "^27.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5"
+  }
+}

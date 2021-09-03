@@ -1,0 +1,8 @@
+src
+.git
+.DS_Store
+.eslintrc
+.gitignore
+jest.config.js
+tsconfig.json
+README.md
